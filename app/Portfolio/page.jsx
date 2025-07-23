@@ -1,0 +1,18 @@
+import Link from 'next/link'
+
+export default function page() {
+    return (
+        <>
+            <div className="bg-teal-950 w-100vw h-12 flex flex-row justify-between gap-4 px-4 items-center">
+                <div className='flex gap-4'>
+                <Link href="/About" className='hover:underline hover:text-blue-100 text-teal-50'>About</Link>
+                <Link href="/Portfolio" className='hover:underline hover:text-blue-100 text-teal-50'>Portfolio</Link>
+                </div>
+                <div className='flex'>
+                    <p className='text-blue-50'>testing</p>
+                </div>
+            </div>
+            <h1 className='text-blue-50'>This is my Portfolio Page</h1>
+        </>
+    )
+}
