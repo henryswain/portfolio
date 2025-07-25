@@ -1,19 +1,10 @@
 import Link from 'next/link'
-
+import NavBar from '../components/NavBar'
 export default function page() {
     return (
         <>
             {/* navbar */}
-            <div className="bg-teal-950 w-100vw h-12 flex flex-row justify-between gap-4 px-4 items-center relative">
-                <div className='flex gap-4'>
-                <Link href="/About" className='hover:underline hover:text-blue-100 text-teal-50'>About</Link>
-                <Link href="/Portfolio" className='hover:underline hover:text-blue-100 text-teal-50'>Portfolio</Link>
-                </div>
-                <div className='flex'>
-                    <p className='text-blue-50'>testing</p>
-                </div>
-            </div>
-
+            <NavBar/>
             {/* dark teal section with information about me */}
             <div className='relative top-8'>
                 <div className='absolute top-1/5 -translate-x-1/2 left-1/2 h-265 md:h-175 w-75 md:w-190 sm:w-150 sm:h-150 rounded-lg bg-teal-950 sm:grid sm:grid-cols-2'>
