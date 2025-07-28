@@ -63,7 +63,7 @@ export default function PortfolioContent() {
         } else if (currentBreakpoint === "sm") {
             wrapper.style.height = "100vh";
         } else if (currentBreakpoint === "xs") {
-            wrapper.style.height = "150vh";
+            wrapper.style.height = "160vh";
         } else {
             // Optional: reset height or handle other cases
             wrapper.style.height = '';
