@@ -29,29 +29,24 @@ export default function page() {
     )
     const screenshots = [
         {
-            src: "/film-track-screenshots/film-track-all-movies.png",
-            width: 2912,
-            height: 1506
-        },
-        {
             src: "/film-track-screenshots/film-track-watched.png",
-            width: 2914,
-            height: 1506
+            width: 16,
+            id: 1
         },
         {
             src: "/film-track-screenshots/film-track-add-new-movie.png",
-            width: 2908,
-            height: 1502
-        },
-        {
-            src: "/film-track-screenshots/film-track-home.png",
-            width: 2918,
-            height: 1508
+            width: 3,
+            id: 2
         },
         {
             src: "/film-track-screenshots/film-track-edit-movie.png",
-            width: 2912,
-            height: 1502
+            width: 3,
+            id: 3
+        },
+        {
+            src: "/film-track-screenshots/film-track-home.png",
+            width: 16,
+            id: 4
         }
     ]
     console.log("link: ", link)

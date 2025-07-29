@@ -26,23 +26,23 @@ export default function page() {
     const screenshots = [
         {
             src: "/career-quest-screenshots/career-quest-home.png",
-            width: 2980,
-            height: 1510
+            width: 16,
+            id: 1
         },
         {
             src: "/career-quest-screenshots/career-quest-settings.png",
-            width: 1116,
-            height: 1272
+            width: 3,
+            id: 2
         },
         {
             src: "/career-quest-screenshots/career-quest-learn-more.png",
-            width: 2888,
-            height: 1496
+            width: 3,
+            id: 3
         },
         {
             src: "/career-quest-screenshots/career-quest-find-jobs.png",
-            width: 2902,
-            height: 1350
+            width: 16,
+            id: 4
         }
     ]
     console.log("link: ", link)

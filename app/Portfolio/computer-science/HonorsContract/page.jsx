@@ -25,23 +25,23 @@ export default function page() {
     const screenshots = [
         {
             src: "/honors-contract-screenshots/honors-contract-sleep.png",
-            width: 2918,
-            height: 1464
+            width: 16,
+            id: 1
         },
         {
             src: "/honors-contract-screenshots/honors-contract-home.png",
-            width: 2912,
-            height: 1226
+            width: 16,
+            id: 2
         },
         {
             src: "/honors-contract-screenshots/honors-contract-anxiety.png",
-            width: 2914,
-            height: 1512
+            width: 16,
+            id: 3
         },
         {
             src: "/honors-contract-screenshots/honors-contract-depression.png",
-            width: 2912,
-            height: 1514
+            width: 16,
+            id: 4
         }
     ]
     console.log("link: ", link)
@@ -57,6 +57,7 @@ export default function page() {
                     title={title} 
                     screenshots={screenshots} 
                     date={date} 
+                    containsTwoVerticalImages={false}
                 />
                 <Link href="/Portfolio/computer-science/FilmTrack" className="justify-start w-full pl-15 sm:pr-20 text-lg pb-4">&#10094; Prevous Project</Link>
             </div>
