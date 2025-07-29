@@ -1,9 +1,10 @@
-import NavBar from "@/app/components/NavBar"
+import NavBar from "@/app/components/NavBar";
+import MediaContent from "@/app/components/MediaContent";
 export default function page() {
     return (
         <>
             <NavBar/>
-            <h1>welcome to the media page</h1>
+            <MediaContent/>
         </>
     )
 }
