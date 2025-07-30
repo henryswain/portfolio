@@ -7,7 +7,9 @@ export default function NavBar() {
             <Link href="/Portfolio" className='hover:underline hover:text-blue-100 text-teal-50'>Portfolio</Link>
             </div>
             <div className='flex'>
-                <p className='text-blue-50'>testing</p>
+                <a href="https://github.com/henryswain">
+                    <img src="/github-mark-white.svg" width="35px"/>
+                </a>
             </div>
         </div>
     )
