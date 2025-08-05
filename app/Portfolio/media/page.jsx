@@ -3,8 +3,10 @@ import MediaContent from "@/app/components/MediaContent";
 export default function page() {
     return (
         <>
-            <NavBar/>
-            <MediaContent/>
+            <div className="bg-gradient-media sm:bg-gradient-media-sm md:bg-gradient-media-md">
+                <NavBar/>
+                <MediaContent/>
+            </div>
         </>
     )
 }

@@ -4,8 +4,10 @@ import ComputerScienceContent from "@/app/components/ComputerScienceContent"
 export default function page() {
     return (
         <>
-            <NavBar/>
-            <ComputerScienceContent/>
+            <div className="bg-gradient-cs sm:bg-gradient-cs-sm md:bg-gradient-cs-md">
+                <NavBar/>
+                <ComputerScienceContent/>
+            </div>
         </>
     )
 }

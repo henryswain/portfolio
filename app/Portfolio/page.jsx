@@ -3,8 +3,10 @@ import PortfolioContent from '../components/PortfolioContent'
 export default function page() {
     return (
         <>
-            <NavBar/>
-            <PortfolioContent/>
+            <div className='bg-gradient-portfolio sm:bg-gradient-portfolio-sm'>
+                <NavBar/>
+                <PortfolioContent/>
+            </div>
         </>
     )
 }

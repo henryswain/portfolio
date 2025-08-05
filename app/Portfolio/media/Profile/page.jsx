@@ -20,7 +20,7 @@ export default function page() {
 
     return (
         <>
-            <div className="flex flex-col items-center gap-12 sm:gap-8 md:gap-25 lg:gap-20">
+            <div className="flex flex-col items-center gap-12 sm:gap-8 md:gap-25 lg:gap-20 bg-gradient-profile sm:bg-gradient-profile-sm md:bg-gradient-profile-md">
                 <NavBar/>
                 <ProjectContent 
                     description={description} 

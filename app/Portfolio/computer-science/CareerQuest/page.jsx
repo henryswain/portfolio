@@ -48,7 +48,7 @@ export default function page() {
     console.log("link: ", link)
     return (
         <>
-            <div className="flex gap-4 flex-col justify-between items-center">
+            <div className="flex gap-4 flex-col justify-between items-center bg-gradient-careerquest sm:bg-gradient-careerquest-sm md:bg-gradient-careerquest-md">
                 <NavBar/>
                 <ProjectContent 
                     description={description} 
@@ -59,7 +59,7 @@ export default function page() {
                     screenshots={screenshots} 
                     date={date} 
                 />
-                <Link href="/Portfolio/computer-science/FilmTrack" className="flex w-full justify-end pr-15 sm:pr-20 text-lg pt-4"> Next Project &#10095;</Link>
+                <Link href="/Portfolio/computer-science/FilmTrack" className="flex w-full justify-end pr-15 sm:pr-20 text-lg pb-12"> Next Project &#10095;</Link>
             </div>
         </>
     )

@@ -47,7 +47,7 @@ export default function page() {
     console.log("link: ", link)
     return (
         <>
-            <div className="flex flex-col items-center gap-8">
+            <div className="flex flex-col items-center gap-8 bg-gradient-honors sm:bg-gradient-honors-sm md:bg-gradient-honors-md">
                 <NavBar/>
                 <ProjectContent 
                     description={description} 
