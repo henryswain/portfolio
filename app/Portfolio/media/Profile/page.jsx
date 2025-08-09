@@ -10,7 +10,7 @@ export default function page() {
     const date = "April 2025"
     const description = (
             <div className="text-white">
-                <p className="text-xs sm:text-xs md:text-[1.1rem] lg:text-lg mt-2">
+                <p className="text-xs sm:text-xs md:text-[1rem] lg:text-lg mt-2">
                     For this profile story, I focused on Lisa Swain, who is a retired biochemistry professor, 
                     and is currently a metalworker. This video was also selected to be featured at the 
                     Storytelling Across Media Student Showcase in Spring 2026 at the University of Iowa.

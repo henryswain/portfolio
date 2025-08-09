@@ -6,10 +6,10 @@ export default function ProjectContent({description, link, linkText, projectType
             {projectType == "media" && (
                 <div className={`bg-teal-950 min-h-100 md:min-h-100 w-75 md:w-190 lg:w-230 sm:w-150 sm:min-h-40 rounded-lg bg-teal-950 p-4 grid grid-cols-2`}>
                     <h1 className='text-teal-300 font-bold col-span-2 text-4xl mb-4'>{title}</h1>
-                    <div className={`col-span-2 ${linkText == "UAY Promo" ? "sm:col-span-2" : "md:col-span-1"}`}>
+                    <div className="col-span-2 md:col-span-1">
                         {/* embed youtube video */}
                         <iframe 
-                            className="aspect-4/3 mb-4 sm:mr-2"
+                            className="aspect-video mb-4 sm:mr-2"
                             src={link} 
                             title="YouTube video player" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media;
@@ -17,7 +17,7 @@ export default function ProjectContent({description, link, linkText, projectType
                             referrerPolicy="strict-origin-when-cross-origin" allowFullScreen
                         />
                     </div>
-                    <div className={`col-span-2 ${linkText == "UAY Promo" ? "sm:col-span-2" : "md:col-span-1"}`}>
+                    <div className="col-span-2 md:col-span-1">
                         <div className='text-teal-300 font-bold text-2xl mb-2 sm:ml-2'>
                             Description: 
                             {description}
