@@ -9,7 +9,7 @@ export default function ProjectContent({description, link, linkText, projectType
                     <div className="col-span-2 md:col-span-1">
                         {/* embed youtube video */}
                         <iframe 
-                            className="aspect-video mb-4 sm:mr-2"
+                            className="aspect-video w-full mb-4 sm:mr-2"
                             src={link} 
                             title="YouTube video player" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media;
