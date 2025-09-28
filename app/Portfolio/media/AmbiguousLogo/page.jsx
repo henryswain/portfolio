@@ -87,8 +87,52 @@ export default function page() {
                             <img src="/thumbnail-sketches/open-negative.png" className="pr-4 pl-4 md:pl-0 pb-4"></img>
                             <img src="/thumbnail-sketches/closed-negative.png" className="pr-4 pl-4 md:pl-0 pb-4"></img>
                         </div>
+                        <hr className="my-4 text-white mx-4"></hr>
+                        <h2 className="text-[2rem] text-white px-4">Iteration</h2>
+                        <p className="text-[1rem] pb-4 px-4 text-white">
+                            I then made a series of iterations of my favorite thumbnail sketch to refine my favorite idea - the space helmet (Niel Armstrong) which is simultaniously part of the sombrero (Mexican restaraunt).
+                        </p>
+                        <div className="columns-1 md:columns-2">
+                            <img src="/iterations/sombrero_helmet_0.png" className="pl-4 pr-4 md:pr-0 pb-4"></img>
+                            <img src="/iterations/sombrero_helmet_1.png" className="pl-4 pr-4 md:pr-0 pb-4"></img>
+                            <img src="/iterations/sombrero_helmet_2.png" className="pl-4 pr-4 md:pr-0 pb-4"></img>
+                            <img src="/iterations/sombrero_helmet_3.png" className="pr-4 pl-4 md:pl-0 pb-4"></img>
+                            <img src="/iterations/sombrero_helmet_4.png" className="pr-4 pl-4 md:pl-0 pb-4"></img>
+                            <img src="/iterations/sombrero_helmet_5.png" className="pr-4 pl-4 md:pl-0 pb-4"></img>
+                        </div>
+                        <p className="text-[1rem] pb-4 px-4 text-white">
+                            I then cleaned up my favorite of the iterations into a clean vector drawing in Adobe Illustrator, 
+                            and added type to balance the logomark and fit the vibe of both the restaraunt and the historical figure.
+                            I chose the bold version of the font "simply rounded" from DaFont because it rounded nature fits the warm vibe of a mexican restaraunt 
+                            as well as the calm, humble nature of Neil Armstrong, and its bold weight is properly balanced with the logo itself.
+                        </p>
+                        <p className="text-[1rem] pb-4 px-4 text-white">
+                            However, I added my own twist to the font by making some of the ends letters of the restaunt name curve to a sharp point. 
+                            I did this so that in addition to representing the calm, humble, and warm vibe as described above, I was simultaniously representing the 
+                            tension surounding the cold war, as well as the spicyness associated with mexican food.
+                        </p>
+                        <div className="columns-1">
+                            <img src="/iterations/logo_with_type_peer_critique.png" alt="my finilized version that I took to peer critique" className="px-4 py-4"/>
+                        </div>
+                        <p className="text-[1rem] pb-2 px-4 text-white">
+                            Apon presenting my work to peer critique, I was given one main piece of advice, and two ways to accomplish the solution
+                        </p>
+                        <ul className="list-disc pl-8 text-white">
+                            <li>I was told that the top of the sombrero was too pointy to accurately depict the the space helmet since space helmets are very rounded</li>
+                            <li>to fix it, it was suggested that I should make my sombrero slightly shorter, and slightly widen the top.</li>
+                            <li>Since sombreros are pointy, it was recognized that this modification would make the sombrero look slightly less like a sombrero, 
+                                so my peers recommmended that I add relevant color to both parts to make them stand out</li>
+                        </ul>
+                        <hr className="my-4 text-white mx-4"></hr>
+                        <h2 className="text-[2rem] text-white px-4">Finalization</h2>
+                        <p className="text-[1.5rem] py-2 px-4 text-white">
+                            I made those exact modifications, and have arrived at my final, cleanly drawn vector logomark, paired with type.
+                        </p>
+                        <div className="columns-1">
+                            <img src="/iterations/ArmstrongsEnchiladas.png" alt="final logo paired with type"  className="px-4 py-4"/>
+                        </div>
                     </div>
-                <Link href="/Portfolio/computer-science/FilmTrack" className="flex w-full justify-end pr-15 sm:pr-20 text-lg pb-12"> Next Project &#10095;</Link>
+                <Link href="/Portfolio/media/UAYPromo" className="flex w-full justify-start pl-15 sm:pl-20 text-lg pb-12">&#10094; Previous Project</Link>
             </div>
           
         </>
