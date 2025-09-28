@@ -35,7 +35,10 @@ export default function page() {
                     title={title} 
                     date={date} 
                 />
-                <Link href="/Portfolio/media/Profile" className="flex justify-start w-full pl-15 sm:pl-20 text-lg">&#10094; Previous Project </Link>
+                <div className="flex w-full flex-row justify-between">
+                    <Link href="/Portfolio/media/Profile" className="pl-15 sm:pl-20 text-lg">&#10094; Previous Project </Link>
+                    <Link href="/Portfolio/media/AmbiguousLogo" className="pr-15 sm:pr-20 text-lg">Next Project &#10095;</Link>
+                </div>
             </div>
         </>
     )
