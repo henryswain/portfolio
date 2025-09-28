@@ -26,7 +26,7 @@
 .bg-gradient-media {
   background: #32ba8a;
   background: linear-gradient(150deg,rgba(50, 186, 138, 1) 0%, rgba(87, 87, 255, 1) 55%, rgba(153, 236, 255, 1) 100%);
-  height: 100vh;
+  height: 125vh;
   background-attachment: fixed;
 }
 
@@ -68,7 +68,7 @@
 .bg-gradient-ambiguous-logo {
   background: #32ba8a;
   background: linear-gradient(150deg,rgba(50, 186, 138, 1) 0%, rgba(87, 87, 255, 1) 55%, rgba(153, 236, 255, 1) 100%);
-  height: 1115vh;
+  height: 1665vh;
   background-attachment: fixed;
 }
 
@@ -87,7 +87,7 @@
   }
 
   .sm\:bg-gradient-media-sm {
-    height: 120vh
+    height: 185vh
   }
 
   .sm\:bg-gradient-uay-sm {
@@ -111,7 +111,7 @@
   }
 
   .sm\:bg-gradient-ambiguous-logo-sm {
-    height: 1115vh
+    height: 1665vh
   }
 }
 
@@ -125,7 +125,7 @@
   }
 
   .md\:bg-gradient-media-md {
-    height: 100vh
+    height: 110vh
   }
 
   .md\:bg-gradient-uay-md {
@@ -149,10 +149,15 @@
   }
 
   .md\:bg-gradient-ambiguous-logo-md {
-    height: 740vh;
+    height: 1155vh;
   }
 }
 
+@media (width >= 64rem) {
+  .lg\:bg-gradient-media-lg {
+    height: 135vh
+  }
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;

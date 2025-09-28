@@ -79,7 +79,10 @@ export default function page() {
                         <hr className="my-4 text-white mx-4"></hr>
                         <h2 className="text-[2rem] text-white px-4">Conceptualization</h2>
                         <p className="text-[1rem] pb-4 px-4 text-white">
-                            With the two mind maps complete, I began making basic thumbnail sketches of Ideas on ways to combine the objects to make creative visually ambiguous designs
+                            With the two mind maps complete, I began making basic thumbnail sketches of Ideas on ways to combine the objects to make creative visually ambiguous designs using Adobe Fresco.
+                            This was very challenging for me because the majority of the nouns from my mind maps for me to get inspiration from were'nt particularily visually complex
+                             (fajita, burrito, enchilada, etc.), forcing me to dismiss those from the mind map, which left me with far fewer options.
+                             in the future, to make this step easier, I plan to take more time and care in the mind map to generate nouns that could easily be iconified.
                         </p>
                         <div className="columns-1 md:columns-2">
                             <img src="/thumbnail-sketches/partial-positive.png" className="pl-4 pr-4 md:pr-0 pb-4"></img>
@@ -90,7 +93,11 @@ export default function page() {
                         <hr className="my-4 text-white mx-4"></hr>
                         <h2 className="text-[2rem] text-white px-4">Iteration</h2>
                         <p className="text-[1rem] pb-4 px-4 text-white">
-                            I then made a series of iterations of my favorite thumbnail sketch to refine my favorite idea - the space helmet (Niel Armstrong) which is simultaniously part of the sombrero (Mexican restaraunt).
+                            I decided to move forward with my space helmet sombrero icon because the parts seemed the least generic in how they
+                             represented the restaraunt and historical figure (a sombreros are clearly a mexican hat, and Neil Armstrong obviously wore a space
+                              helmet on the mission he is most famously known for), and it most clearly represents both at the same time.
+                            Upon making that decision, I made a series of iterations to refine my favorite idea. For each iteration, I took inspiration from previously created
+                            icons on flaticon.com, and I wasn't so much focused on getting a better icon as I was on geting a variety of options to chose from in the next step in the process.
                         </p>
                         <div className="columns-1 md:columns-2">
                             <img src="/iterations/sombrero_helmet_0.png" className="pl-4 pr-4 md:pr-0 pb-4"></img>
@@ -101,8 +108,12 @@ export default function page() {
                             <img src="/iterations/sombrero_helmet_5.png" className="pr-4 pl-4 md:pl-0 pb-4"></img>
                         </div>
                         <p className="text-[1rem] pb-4 px-4 text-white">
-                            I then cleaned up my favorite of the iterations into a clean vector drawing in Adobe Illustrator, 
-                            and added type to balance the logomark and fit the vibe of both the restaraunt and the historical figure.
+                            My favorite of my iterations turned out to be a cross between by original idea, and the one most similar to it (the same idea, but with a bit more curvature).
+                            I likes this combination the most because the sombrero looks the most like a sombrero and the helmet looks the most like a helmet.
+                            I cleaned this combination of ideas into a vector drawing using Adobe Illustrator.
+                        </p>
+                        <p className="text-[1rem] pb-4 px-4 text-white">
+                            I also dded type to balance the logomark and fit the vibe of both the restaraunt and the historical figure.
                             I chose the bold version of the font "simply rounded" from DaFont because it rounded nature fits the warm vibe of a mexican restaraunt 
                             as well as the calm, humble nature of Neil Armstrong, and its bold weight is properly balanced with the logo itself.
                         </p>
