@@ -80,9 +80,9 @@ export default function page() {
                         <h2 className="text-[2rem] text-white px-4">Conceptualization</h2>
                         <p className="text-[1rem] pb-4 px-4 text-white">
                             With the two mind maps complete, I began making basic thumbnail sketches of Ideas on ways to combine the objects to make creative visually ambiguous designs using Adobe Fresco.
-                            This was very challenging for me because the majority of the nouns from my mind maps for me to get inspiration from were'nt particularily visually complex
+                            This was very challenging for me because the majority of the nouns from my mind maps for me to get inspiration from weren't particularily visually complex
                              (fajita, burrito, enchilada, etc.), forcing me to dismiss those from the mind map, which left me with far fewer options.
-                             in the future, to make this step easier, I plan to take more time and care in the mind map to generate nouns that could easily be iconified.
+                             In the future, to make this step easier, I plan to take more time and care in the mind map to generate nouns that could easily be iconified.
                         </p>
                         <div className="columns-1 md:columns-2">
                             <img src="/thumbnail-sketches/partial-positive.png" className="pl-4 pr-4 md:pr-0 pb-4"></img>
@@ -94,7 +94,7 @@ export default function page() {
                         <h2 className="text-[2rem] text-white px-4">Iteration</h2>
                         <p className="text-[1rem] pb-4 px-4 text-white">
                             I decided to move forward with my space helmet sombrero icon because the parts seemed the least generic in how they
-                             represented the restaraunt and historical figure (a sombreros are clearly a mexican hat, and Neil Armstrong obviously wore a space
+                             represented the restaraunt and historical figure (a sombrero is clearly a mexican hat, and Neil Armstrong obviously wore a space
                               helmet on the mission he is most famously known for), and it most clearly represents both at the same time.
                             Upon making that decision, I made a series of iterations to refine my favorite idea. For each iteration, I took inspiration from previously created
                             icons on flaticon.com, and I wasn't so much focused on getting a better icon as I was on geting a variety of options to chose from in the next step in the process.
@@ -108,17 +108,17 @@ export default function page() {
                             <img src="/iterations/sombrero_helmet_5.png" className="pr-4 pl-4 md:pl-0 pb-4"></img>
                         </div>
                         <p className="text-[1rem] pb-4 px-4 text-white">
-                            My favorite of my iterations turned out to be a cross between by original idea, and the one most similar to it (the same idea, but with a bit more curvature).
-                            I likes this combination the most because the sombrero looks the most like a sombrero and the helmet looks the most like a helmet.
+                            My favorite iteration turned out to be a cross between my original idea, and the one most similar to it (the same idea, but with a bit more curvature).
+                            I liked this combination the most because the sombrero looked the most like a sombrero and the helmet looked the most like a helmet.
                             I cleaned this combination of ideas into a vector drawing using Adobe Illustrator.
                         </p>
                         <p className="text-[1rem] pb-4 px-4 text-white">
-                            I also dded type to balance the logomark and fit the vibe of both the restaraunt and the historical figure.
-                            I chose the bold version of the font "simply rounded" from DaFont because it rounded nature fits the warm vibe of a mexican restaraunt 
+                            I also added type to balance the logomark and fit the vibe of both the restaraunt and the historical figure.
+                            I chose the bold version of the font "simply rounded" from DaFont because its rounded nature fits the warm vibe of a mexican restaraunt 
                             as well as the calm, humble nature of Neil Armstrong, and its bold weight is properly balanced with the logo itself.
                         </p>
                         <p className="text-[1rem] pb-4 px-4 text-white">
-                            However, I added my own twist to the font by making some of the ends letters of the restaunt name curve to a sharp point. 
+                            However, I added my own twist to the font by making some of the ends of the letters of the restaunt name curve to a sharp point. 
                             I did this so that in addition to representing the calm, humble, and warm vibe as described above, I was simultaniously representing the 
                             tension surounding the cold war, as well as the spicyness associated with mexican food.
                         </p>
@@ -126,10 +126,10 @@ export default function page() {
                             <img src="/iterations/logo_with_type_peer_critique.png" alt="my finilized version that I took to peer critique" className="px-4 py-4"/>
                         </div>
                         <p className="text-[1rem] pb-2 px-4 text-white">
-                            Apon presenting my work to peer critique, I was given one main piece of advice, and two ways to accomplish the solution
+                            Upon presenting my work to peer critique, I was given one main piece of advice, and two ways to accomplish the solution
                         </p>
                         <ul className="list-disc pl-8 text-white">
-                            <li>I was told that the top of the sombrero was too pointy to accurately depict the the space helmet since space helmets are very rounded</li>
+                            <li>I was told that the top of the sombrero was too pointy to accurately depict the space helmet since space helmets are very rounded</li>
                             <li>to fix it, it was suggested that I should make my sombrero slightly shorter, and slightly widen the top.</li>
                             <li>Since sombreros are pointy, it was recognized that this modification would make the sombrero look slightly less like a sombrero, 
                                 so my peers recommmended that I add relevant color to both parts to make them stand out</li>
