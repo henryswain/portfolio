@@ -136,8 +136,20 @@ export default function page() {
                         </ul>
                         <hr className="my-4 text-white mx-4"></hr>
                         <h2 className="text-[2rem] text-white px-4">Finalization</h2>
-                        <p className="text-[1.5rem] py-2 px-4 text-white">
-                            I made those exact modifications, and have arrived at my final, cleanly drawn vector logomark, paired with type.
+                        <p className="text-[1rem] py-2 px-4 text-white">
+                            I am confident that this final version of my logo is great for a number of reasons. My design clearly represents 
+                            partial positive form ambiguity with the helmet clearly representing Niel Armstrong, and the sombrero clearly representing a Mexican restaraunt. 
+                            Both parts clearly represent what they intend to without disrupting the clarity of the other part. I didn't like several of my original thumbnails as much 
+                            because both the object representing Neil Armstrong and the object representing a Mexican restaurant did so in a much more broad way and it wasn't as obvious
+                             what the parts were supposed to represent. The sombrero/helmet was the most clear out of all the thumbnails and iterations.
+                              I received quality feedback during the peer critique that I implemented to enhance my design (I made the top of the sombrero shorter to make
+                               the space helmet more clearly represent a space helmet, and I added color to make each part stand out as what it was).  
+                        </p>
+                        <p className="text-[1rem] py-2 px-4 text-white">
+                            I chose a font “Simply Rounded” from DaFont with a modification to represent both Niel Armstrong's personality and his historical time period,
+                             in addition to the nature of Mexican restaurants, as well as their food. The rounded nature corresponds to the friendly, warm nature of Mexican restaurants
+                              as well as Armstrong's calm, humble personality. The points I added to the font represent the tension during the cold war, as well as the spicy nature of the food.
+                               I chose a bold weight and positioned the name of the restaurant (Armstrongs Enchiladas) below the logo to ensure proper balance.
                         </p>
                         <div className="columns-1">
                             <img src="/iterations/ArmstrongsEnchiladas.png" alt="final logo paired with type"  className="px-4 py-4"/>
