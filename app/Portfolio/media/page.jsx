@@ -3,9 +3,10 @@ import MediaContent from "@/app/components/MediaContent";
 export default function page() {
     return (
         <>
-            <div className="bg-gradient-media sm:bg-gradient-media-sm md:bg-gradient-media-md lg:bg-gradient-media-lg">
+            <div className="flex gap-8 flex-col relative justify-between items-center bg-gradient">
                 <NavBar/>
                 <MediaContent/>
+                <div></div>
             </div>
         </>
     )

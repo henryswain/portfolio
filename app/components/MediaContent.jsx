@@ -3,8 +3,8 @@ import Link from "next/link"
 export default function MediaContent() {
     return (
         <>
-          <div className="relative">
-                <div className="bg-teal-950 left-1/2 top-8 -translate-x-1/2 absolute w-70 sm:w-110 md:w-190 lg:w-240 rounded-lg grid grid-cols-12 md:grid-cols-18">
+          {/* <div className="relative"> */}
+                <div className="bg-teal-950 w-70 sm:w-110 md:w-190 lg:w-240 rounded-lg grid grid-cols-12 md:grid-cols-18">
                     <div className="aspect-16/10 col-span-12 md:col-span-9 md:col-start-1 m-4 bg-white rounded-lg">
                         <Card 
                             imagePath="/profile-story.jpeg"
@@ -36,7 +36,7 @@ export default function MediaContent() {
                             textContainerHeight="h-7"
                         />
                     </div>
-                    <div className="aspect-8/9 col-span-12 md:col-start-6 md:col-span-8 m-4 bg-white rounded-lg">
+                    <div className="aspect-8/9 col-span-12 md:col-span-9 md:col-start-1 m-4 bg-white rounded-lg">
                         <Card
                             linkPath="/Portfolio/media/AmbiguousLogo"
                             imagePath="/iterations/ArmstrongsEnchiladas.png"
@@ -51,8 +51,23 @@ export default function MediaContent() {
                             textContainerHeight="h-7"
                         />
                     </div>
+                    <div className="aspect-8/9 col-span-12 md:col-start-10 md:col-span-9 m-4 bg-white rounded-lg">
+                        <Card
+                            linkPath="/Portfolio/media/TypographicPoster"
+                            imagePath="/final typographic poster.png"
+                            aspectRatio="11/17"
+                            textColor="black"
+                            xsSize="xs"
+                            smSize="md"
+                            mdSize="md"
+                            lg="lg"
+                            bb="border-b-2"
+                            textContent="Typographic teaching poster"
+                            textContainerHeight="h-7"
+                        />
+                    </div>
                 </div>
-            </div>
+            {/* </div> */}
         </>
     )
 }
