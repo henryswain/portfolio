@@ -24,7 +24,7 @@ export default function page() {
                     <p className="pb-4 w-full text-wrap text-white px-4">
                         First I needed to do research on the typeface assigned to me "Rockwell". I used gemini to get a general summary of key information about Rockwell, including
                         who created it and when, its origin/history, and its qualities and characteristics. After fact checking gemini's bulleted output, I began to search for an appropriate color scheme. 
-                        to do this, I simply googled common graphic design styles in 1934 - 1934 was chosen because rockwell was created in 1934. The common finding was that "art deco" was common during that time period.
+                        To do this, I simply googled common graphic design styles in 1934 - 1934 was chosen because Rockwell was created in 1934. The common finding was that "art deco" was common during that time period.
                         upon finding a list of common art deco colors in an artical by <Link href="https://www.adobe.com/uk/express/learn/blog/all-about-art-deco">adobe</Link>, I began assembing two completely separate rough drafts.
                     </p>
                     {/* two roughs */}
@@ -71,7 +71,7 @@ export default function page() {
                         lighter or white for background colors that were more dark.
                     </p>        
                     <p className="pb-4 w-full text-wrap text-white px-4">
-                        Overall, I liked this design because it seemed the most visually compelling with clear dynamism. However, I didn't like that it felt particularly towards the top, with some information feeling forced.
+                        Overall, I liked this design because it seemed the most visually compelling with clear dynamism. However, I didn't like that it felt particularly busy towards the top, with some information feeling forced.
                     </p>
 
                     {/* feedback */}
