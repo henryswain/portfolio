@@ -36,18 +36,18 @@ export default function MediaContent() {
                             textContainerHeight="h-7"
                         />
                     </div>
-                    <div className="aspect-8/9 col-span-12 md:col-span-9 md:col-start-1 m-4 bg-white rounded-lg">
+                    <div className="aspect-8/9 col-span-12 md:col-start-1 md:col-span-9 m-4 bg-white rounded-lg">
                         <Card
-                            linkPath="/Portfolio/media/AmbiguousLogo"
-                            imagePath="/iterations/ArmstrongsEnchiladas.png"
-                            aspectRatio="square"
+                            linkPath="/Portfolio/media/DeconstructivismActivismPoster"
+                            imagePath="/deconstructivism/final_poster.jpg"
+                            aspectRatio="11/17"
                             textColor="black"
                             xsSize="xs"
                             smSize="md"
                             mdSize="md"
                             lg="lg"
                             bb="border-b-2"
-                            textContent="Ambiguous Logo"
+                            textContent="Deconstructivism activism poster"
                             textContainerHeight="h-7"
                         />
                     </div>
@@ -63,6 +63,36 @@ export default function MediaContent() {
                             lg="lg"
                             bb="border-b-2"
                             textContent="Typographic teaching poster"
+                            textContainerHeight="h-7"
+                        />
+                    </div>
+                    <div className="aspect-8/9 col-span-12 md:col-span-9 md:col-start-1 m-4 bg-white rounded-lg">
+                        <Card
+                            linkPath="/Portfolio/media/AmbiguousLogo"
+                            imagePath="/iterations/ArmstrongsEnchiladas.png"
+                            aspectRatio="square"
+                            textColor="black"
+                            xsSize="xs"
+                            smSize="md"
+                            mdSize="md"
+                            lg="lg"
+                            bb="border-b-2"
+                            textContent="Ambiguous Logo"
+                            textContainerHeight="h-7"
+                        />
+                    </div>
+                    <div className="aspect-9/6 col-span-12 md:col-start-10 md:col-span-9 m-4 bg-white rounded-lg">
+                        <Card
+                            linkPath="/Portfolio/media/MagazineLayout"
+                            imagePath="/magazine/lead spread.png"
+                            aspectRatio="17/11"
+                            textColor="black"
+                            xsSize="xs"
+                            smSize="md"
+                            mdSize="md"
+                            lg="lg"
+                            bb="border-b-2"
+                            textContent="Magazine layout design"
                             textContainerHeight="h-7"
                         />
                     </div>
