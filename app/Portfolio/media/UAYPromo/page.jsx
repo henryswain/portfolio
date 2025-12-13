@@ -25,7 +25,7 @@ export default function page() {
             )
     return (
         <>
-            <div className="flex flex-col items-center gap-12 sm:gap-8 md:gap-18 bg-gradient-uay sm:bg-gradient-uay-sm md:bg-gradient-uay-md">
+            <div className="flex flex-col items-center gap-8 bg-gradient pb-8 justify-between">
                 <NavBar/>
                 <ProjectContent 
                     description={description} 

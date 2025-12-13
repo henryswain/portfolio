@@ -3,7 +3,7 @@ export default function PortfolioContent() {
     return (
         <>
             {/* <NavBar/> */}
-            <div className='relative top-12'>
+            {/* <div className='relative top-12'> */}
                 <div className='grid-cols-12 grid sm:grid-cols-15'>
                     {/* computer science card */}
                     <div className='xl:col-start-3 xl:col-span-4 lg:col-start-3 lg:col-span-5 sm:col-start-2 sm:col-span-6 my-8 col-start-3 col-span-8 bg-teal-950 aspect-7/8 rounded-lg pb-2'>
@@ -33,7 +33,7 @@ export default function PortfolioContent() {
                         />
                     </div>
                 </div>
-            </div>
+            {/* </div> */}
         </>
     )
 }

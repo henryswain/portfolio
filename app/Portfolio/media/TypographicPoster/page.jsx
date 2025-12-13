@@ -4,7 +4,7 @@ export default function page() {
     return (
         <>
 
-            <div className="flex gap-4 flex-col relative justify-between items-center bg-gradient">
+            <div className="flex gap-8 flex-col relative justify-between items-center bg-gradient pb-8">
                 <NavBar/>
                 <div className="bg-teal-950 rounded-lg w-85 md:w-180">
                     {/* title of project */}
@@ -102,7 +102,10 @@ export default function page() {
                         that matched art deco, a common style from the time period of Rockwell's origin. 
                     </p> 
                 </div>
-                <Link href="/Portfolio/media/AmbiguousLogo" className="flex w-full justify-start pl-15 sm:pl-20 text-lg pb-12 pt-8">&#10094; Previous Project</Link>
+                <div className="flex w-full flex-row justify-between">
+                    <Link href="/Portfolio/media/AmbiguousLogo" className="pl-15 sm:pl-20 text-lg">&#10094; Previous Project</Link>
+                    <Link href="/Portfolio/media/MagazineLayout" className="pr-15 sm:pr-20 text-lg">Next Project &#10095;</Link>
+                </div>
             </div>
           
         </>

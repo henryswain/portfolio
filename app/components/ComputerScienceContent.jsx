@@ -2,8 +2,8 @@ import Card from "@/app/components/Card"
 export default function page() {
     return (
         <>
-            <div className="relative">
-                <div className="bg-teal-950 left-1/2 top-8 -translate-x-1/2 absolute h-145 sm:h-220 md:h-125 w-70 sm:w-110 md:w-190 lg:w-240 lg:h-155 rounded-lg grid grid-cols-12 md:grid-cols-18">
+            {/* <div className="relative"> */}
+                <div className="bg-teal-950 h-145 sm:h-220 md:h-125 w-70 sm:w-110 md:w-190 lg:w-240 lg:h-155 rounded-lg grid grid-cols-12 md:grid-cols-18">
                     <div className="aspect-16/10 col-span-12 md:col-span-9 md:col-start-1 mx-4 mt-4 bg-white rounded-lg">
                         <Card 
                             imagePath="/career-quest-screenshots/career-quest-home.png"
@@ -47,7 +47,7 @@ export default function page() {
                         />
                     </div>
                 </div>
-            </div>
+            {/* </div> */}
         </>
     )
 }

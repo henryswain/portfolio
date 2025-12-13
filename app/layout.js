@@ -10,15 +10,10 @@ const inter = Inter({
 })
 
 
-export default function DashboardLayout({ children }) {
+export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={inter.className}>
-      <body>
-        {/* Layout UI */}
-
-        {/* Place children where you want to render a page or nested layout */}
-        <main>{children}</main>
-      </body>
+    <html lang="en">
+      <body>{children}</body>
     </html>
   )
 }

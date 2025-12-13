@@ -1,12 +1,27 @@
 @import "tailwindcss";
 
 .bg-gradient {
-  background: #32ba8a;
+  /* background: #32ba8a;
   background: linear-gradient(150deg,rgba(50, 186, 138, 1) 0%, rgba(87, 87, 255, 1) 55%, rgba(153, 236, 255, 1) 100%);
   height: 100%;
-  background-attachment: fixed;
+  background-attachment: fixed; */
+
+  background: #85d4ff;
+  background: linear-gradient(0deg, rgba(133, 212, 255, 1) 7%, rgba(196, 234, 255, 1) 36%, rgba(99, 159, 255, 1) 82%);
+
+
+  background-attachment: fixed; /* This is the key property */
+  background-repeat: no-repeat; /* Prevents the gradient from repeating if content is shorter than viewport */
+  background-size: cover; /* Ensures the gradient covers the entire background */
+  min-height: 100vh; /* Ensures the body takes at least the full viewport height */
 }
 
+.bg-gradient-full-screen {
+  background: #32ba8a;
+  background: linear-gradient(150deg,rgba(50, 186, 138, 1) 0%, rgba(87, 87, 255, 1) 55%, rgba(153, 236, 255, 1) 100%);
+  height: 100vh;
+  background-attachment: fixed;
+}
 /* define background gradients for each page */
 .bg-gradient-about {
   background: #32ba8a;
@@ -189,10 +204,14 @@
   }
 }
 
+/* html {
+     overscroll-behavior-y: none;
+} */
 
 body {
   background: var(--background);
   color: var(--foreground);
+  overscroll-behavior-y: none;
   /* replace default font with font that can render tailwind font-thin class */
   font-family: 'Inter', sans-serif;  
   /* font-family: Arial, Helvetica, sans-serif; */

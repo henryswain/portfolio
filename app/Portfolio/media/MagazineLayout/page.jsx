@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function page() {
     return (
         <>
-            <div className="flex gap-8 flex-col relative justify-between items-center bg-gradient">
+            <div className="flex gap-8 flex-col relative justify-between items-center bg-gradient pb-8">
                 <NavBar/>
                 <div className="bg-teal-950 rounded-lg w-85 md:w-180">
                     <h1 className="text-[3rem] w-full pb-4 pt-2 px-4 text-white">
@@ -77,7 +77,8 @@ export default function page() {
                     </p>
                 </div>
                 <div className="flex w-full flex-row justify-between">
-                    <Link href="/Portfolio/media/TypographicPoster" className="pl-15 sm:pl-20 text-lg pb-12 pt-8">&#10094; Previous Project</Link>
+                    <Link href="/Portfolio/media/TypographicPoster" className="pl-15 sm:pl-20 text-lg">&#10094; Previous Project</Link>
+                    <Link href="/Portfolio/media/DeconstructivismActivismPoster" className="pr-15 sm:pr-20 text-lg">Next Project &#10095;</Link>
                 </div>
             </div>
         </>
