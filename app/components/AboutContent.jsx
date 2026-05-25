@@ -9,7 +9,9 @@ export default function AboutContent() {
                 {/* my name and field of study */}
                 <div className='sm:m-4 mx-4 mt-0 mb-2'>
                     <p className='text-white font-bold md:text-[90px] sm:text-[70px] text-[35px] sm:leading-none'>HENRY SWAIN</p>
-                    <p className='text-white font-thin md:text-[36px] sm:text-[26px] text-[26px] pt-1 md:pt4'>Informatics (media) student at the University of Iowa minoring in Computer Science</p>
+                    <p className='text-white font-thin md:text-[28px] sm:text-[20px] text-[16px] pt-1 md:pt4'><strong>B.A. Informatics (media)</strong></p>
+                    <p className='text-white font-thin md:text-[28px] sm:text-[20px] text-[16px]'>minor in Computer Science</p>
+                    <p className='text-white font-thin md:text-[28px] sm:text-[20px] text-[16px]'>University of Iowa</p>
                 </div>
                 <hr className='col-span-2 text-white mx-4 mb-2'></hr>
 
