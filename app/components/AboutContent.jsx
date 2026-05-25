@@ -15,15 +15,12 @@ export default function AboutContent() {
 
                 {/* breaf bio */}
                 <p className='col-span-2 text-white sm:text-sm md:text-md mx-4 sm:mb-2 mb-3'>
-                    As an Informatics student, I'm hoping for a career in web or software development 
-                    after graduation.​ I'm usually swamped with school work, but when I have a little bit
-                        of free time, I like to get outside and take pictures of birds.
+                    In May 2026, I completed my B.A. in Informatics and minor in Computer Science from the University of Iowa with University Honors.
+                    I would love to apply my knowledge to land a career and thrive in the tech industry.
                 </p>
                 <p className='col-span-2 text-white sm:text-sm md:text-md mx-4 mb-2'>
-                    My dad (a retired high school science teacher) is writing a book about the ways
-                        of knowing. My mom works as a Title 1 reading teacher, and my brother has moved out
-                        and does landscaping work in Idaho. Finally, my dog Lola (yellow lab)
-                        is wild and crazy, but loving.
+                    I also enjoy photography and videography, and I recently recieved my FAA drone certification to fly drones commercially.
+                    My photography efforts for that past few years are primarily focused on nature and wildlife, and I've made a <a href="https://henryswain.github.io/henry-swain-photography/" style={{color: "#00FFFF !important;", textDecoration: "underline !important;"}} target="_blank">website</a> to showcase my best work
                 </p>
             </div>
         </>
