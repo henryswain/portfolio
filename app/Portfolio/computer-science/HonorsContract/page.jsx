@@ -47,7 +47,7 @@ export default function page() {
     console.log("link: ", link)
     return (
         <>
-            <div className="flex flex-col items-center gap-8 bg-gradient-honors sm:bg-gradient-honors-sm md:bg-gradient-honors-md">
+            <div className="flex flex-col items-center gap-8 bg-gradient pb-8">
                 <NavBar/>
                 <ProjectContent 
                     description={description} 
@@ -59,7 +59,7 @@ export default function page() {
                     date={date} 
                     containsTwoVerticalImages={false}
                 />
-                <Link href="/Portfolio/computer-science/FilmTrack" className="justify-start w-full pl-15 sm:pr-20 text-lg pb-4">&#10094; Prevous Project</Link>
+                <Link href="/Portfolio/computer-science/FilmTrack" className="justify-start w-full pl-15 sm:pr-20 text-lg">&#10094; Prevous Project</Link>
             </div>
         </>
     )
