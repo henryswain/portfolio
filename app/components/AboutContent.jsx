@@ -22,7 +22,7 @@ export default function AboutContent() {
                 </p>
                 <p className='col-span-2 text-white sm:text-sm md:text-md mx-4 mb-2'>
                     I also enjoy photography and videography, and I recently recieved my FAA drone certification to fly drones commercially.
-                    My photography efforts for that past few years are primarily focused on nature and wildlife, and I've made a <a href="https://henryswain.github.io/henry-swain-photography/" style={{color: "#00FFFF !important;", textDecoration: "underline !important;"}} target="_blank">website</a> to showcase my best work
+                    My photography efforts for that past few years are primarily focused on nature and wildlife, and I've made a <a href="https://henryswain.github.io/henry-swain-photography/" className="text-cyan-400 underline hover:text-cyan-300" target="_blank">website</a> to showcase my best work
                 </p>
             </div>
         </>
