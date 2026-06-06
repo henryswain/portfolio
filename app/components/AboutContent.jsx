@@ -2,7 +2,7 @@ export default function AboutContent() {
     return (
         <>
             {/* dark teal section with information about me */}
-            <div className='h-265 md:h-175 w-75 md:w-190 sm:w-150 sm:h-150 rounded-lg bg-teal-950 sm:grid sm:grid-cols-2'>
+            <div className='w-75 md:w-190 sm:w-150 rounded-lg bg-teal-950 sm:grid sm:grid-cols-2 mb-8'>
                 {/* my profile picture */}
                 <img src="/profile-pic.jpg" className='p-4'></img>
 
