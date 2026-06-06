@@ -54,7 +54,7 @@ const lgTextSizeMap = {
 }
 
 export default function Card({
-    aspectRatio = "4/3", 
+    forPortfolioPage = false,
     imagePath, 
     linkPath, 
     xsSize = 'base', 
@@ -64,7 +64,9 @@ export default function Card({
     textContent, 
     textColor = "white", 
     bb = "", 
-    textContainerHeight = "h-9"
+    textContainerHeight = "h-9",
+    imgHeight,
+    imgWidth
   } = {}) {
   
   // Get the mapped class names
@@ -74,18 +76,28 @@ export default function Card({
   const lgClass = lgTextSizeMap[lgSize] || 'lg:text-base'
   
   return (
-    <Link href={linkPath}>
-      <div className='bg-black rounded-t-lg'>
+    <Link 
+      href={linkPath}
+      style={{
+        width: `${forPortfolioPage ? 100 : imgWidth * 200 / imgHeight}${forPortfolioPage ? "%": "px"}`,
+        flexGrow: `${imgWidth * 200 / imgHeight}`,
+        display: 'block',
+      }}
+      className='m-2'
+    >
+      <div style={{ position: 'relative' }}>
+        <i style={{ display: 'block', paddingBottom: `${imgHeight / imgWidth * 100}%` }} />
         <img 
-          src={imagePath} 
-          alt="clickable image for computer science category" 
-          className={`aspect-${aspectRatio} object-cover rounded-t-lg hover:opacity-75 transition-opacity duration-250 ${bb}`} 
+          src={imagePath}
+          alt="..."
+          className="absolute top-0 w-full rounded-t-lg hover:opacity-75 transition-opacity duration-250"
         />
       </div>
-      <div className={`relative ${textContainerHeight} w-full`}>
-        <h1 className={`text-nowrap absolute mt-1 left-1/2 -translate-x-1/2 text-${textColor} ${xsClass} ${smClass} ${mdClass} ${lgClass}`}>
+      <div className="bg-teal-900 rounded-b-lg p-2">
+        <h1 className={`text-white text-center text-xs ${xsClass} ${smClass} ${mdClass} ${lgClass} line-clamp-2`}>
           {textContent}
         </h1>
       </div>
     </Link>
-)}
+  )
+}
