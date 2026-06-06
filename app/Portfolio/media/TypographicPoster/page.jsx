@@ -103,7 +103,7 @@ export default function page() {
                     </p> 
                 </div>
                 <div className="flex w-full flex-row justify-between">
-                    <Link href="/Portfolio/media/AmbiguousLogo" className="pl-15 sm:pl-20 text-lg">&#10094; Previous Project</Link>
+                    <Link href="/Portfolio/media/DeconstructivismActivismPoster" className="pl-15 sm:pl-20 text-lg">&#10094; Previous Project</Link>
                     <Link href="/Portfolio/media/MagazineLayout" className="pr-15 sm:pr-20 text-lg">Next Project &#10095;</Link>
                 </div>
             </div>

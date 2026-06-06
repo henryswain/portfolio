@@ -36,8 +36,8 @@ export default function page() {
                     date={date} 
                 />
                 <div className="flex w-full flex-row justify-between">
-                    <Link href="/Portfolio/media/Profile" className="pl-15 sm:pl-20 text-lg">&#10094; Previous Project </Link>
-                    <Link href="/Portfolio/media/AmbiguousLogo" className="pr-15 sm:pr-20 text-lg">Next Project &#10095;</Link>
+                    <Link href="/Portfolio/media/AmbiguousLogo" className="pl-15 sm:pl-20 text-lg">&#10094; Previous Project </Link>
+                    <Link href="/Portfolio/media/DeconstructivismActivismPoster" className="pr-15 sm:pr-20 text-lg">Next Project &#10095;</Link>
                 </div>
             </div>
         </>
