@@ -36,22 +36,22 @@ export default function page() {
             )
     const screenshots = [
         {
-            src: "/career-quest-screenshots/career-quest-home.png",
+            src: "/computer-science/career-quest-screenshots/career-quest-home_compressed",
             width: 16,
             id: 1
         },
         {
-            src: "/career-quest-screenshots/career-quest-settings.png",
+            src: "/computer-science/career-quest-screenshots/career-quest-settings_compressed",
             width: 3,
             id: 2
         },
         {
-            src: "/career-quest-screenshots/career-quest-learn-more.png",
+            src: "/computer-science/career-quest-screenshots/career-quest-learn-more_compressed",
             width: 3,
             id: 3
         },
         {
-            src: "/career-quest-screenshots/career-quest-find-jobs.png",
+            src: "/computer-science/career-quest-screenshots/career-quest-find-jobs_compressed",
             width: 16,
             id: 4
         }

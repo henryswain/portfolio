@@ -8,7 +8,7 @@ export default function page() {
                 <NavBar/>
                 <div className="bg-teal-950 rounded-lg w-85 md:w-180">
                     {/* title of project */}
-                    <h1 className="text-[3rem] w-full pb-4 pt-2 px-4 text-white">
+                    <h1 className="text-[2.3rem] sm:text-[3rem] text-wrap w-full pb-4 pt-2 px-4 text-white">
                         Type Specimin Poster
                     </h1>
                     <hr className="text-white mx-4 py-2"></hr>
@@ -40,7 +40,11 @@ export default function page() {
                     <p className="text-white pb-4 px-4 w-full text-[1.5rem]">
                         Rough 1
                     </p>
-                    <img src="/roughs/rough-2.png" className="w-full pb-4 px-4" alt="my first rough draft"></img>
+                    <picture>
+                        <source type="image/avif" srcSet="/media/graphic-design/typographic-teaching-poster/roughs/rough-2_compressed.avif" />
+                        <source type="image/webp" srcSet="/media/graphic-design/typographic-teaching-poster/roughs/rough-2_compressed.webp" />
+                        <img src="media/graphic-design/typographic-teaching-poster/roughs/rough-2_compressed.jpg" className="w-full pb-4 px-4" alt="my first rough draft" />
+                    </picture>
                     <p className="pb-4 w-full text-wrap text-white px-4">
                         For my second rough draft, as suggested by my professor, I used a distinct letter form - I chose the letter A due to its unique serif at its apex - from the typeface and enlarged it to an extreme extent. This would be the main feature that would catch the viewer's eye from a distance.
                         I then brought the viewer's eye to the top left via the font name in a large font size and bold weight. From there, I let the bolded headers, slightly smaller subheaders, and plain text guide the viewers eye through the remainder of the hierarchy. The two overarching categories separated by the subheaders include
@@ -57,7 +61,11 @@ export default function page() {
                     <h2 className="text-[1.5rem] pb-4 px-4 text-white">
                         Rough 2
                     </h2>
-                    <img src="/roughs/rough-1.png" className="w-full pb-4 px-4" alt="my second rough draft"></img>
+                    <picture>
+                        <source type="image/avif" srcSet="/media/graphic-design/typographic-teaching-poster/roughs/rough-1_compressed.avif"/>
+                        <source type="image/webp" srcSet="/media/graphic-design/typographic-teaching-poster/roughs/rough-1_compressed.webp" />
+                        <img src="/media/graphic-design/typographic-teaching-poster/roughs/rough-1_compressed.jpg" className="w-full pb-4 px-4" alt="my second rough draft" />
+                    </picture>
                     <p className="pb-4 w-full text-wrap text-white px-4">
                         For this design, I wanted to attract the viewer to the name of the font first, then direct them to the font's origin and history, and lastly, to the qualities and characteristics of the font.
                         To draw the viewer to the name of the font first, I used a very large font size, and a bold weight. To direct the viewer to the top of the page with the origin and history, I positioned part of the font name 
@@ -94,7 +102,11 @@ export default function page() {
                     <p className="text-white pb-4 px-4 w-full text-[2rem]">
                         Final Poster
                     </p>
-                    <img src="/final typographic poster.png" alt="final typographic poster" className="w-full pb-4 px-4"/>
+                    <picture>
+                        <source type="image/avif" srcSet="/media/graphic-design/typographic-teaching-poster/final typographic poster_compressed.avif"/>
+                        <source type="image/webp" srcSet="/media/graphic-design/typographic-teaching-poster/final typographic poster_compressed.webp"/>
+                        <img src="/media/graphic-design/typographic-teaching-poster/final typographic poster_compressed.jpg" alt="final typographic poster" className="w-full pb-4 px-4"/>
+                    </picture>
                     <p className="pb-4 w-full text-wrap text-white px-4">
                         My final typographic poster kept the best parts of my initial rough draft, but it also incorporated all the feedback that I received.
                         Overall, I'm very happy with the final product, and I think it does a great job catching the viewer's eye at a distance, and keeping their attention through the rest

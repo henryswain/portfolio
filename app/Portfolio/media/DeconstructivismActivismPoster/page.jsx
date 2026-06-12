@@ -6,7 +6,7 @@ export default function page() {
             <div className="flex gap-8 flex-col relative justify-between items-center bg-gradient pb-8">
                 <NavBar/>
                 <div className="bg-teal-950 rounded-lg w-85 md:w-180">
-                    <h1 className="text-[3rem] w-full pb-4 pt-2 px-4 text-white">
+                    <h1 className="text-[2.3rem] sm:text-[3rem] text-wrap w-full pb-4 pt-2 px-4 text-white">
                         Deconstructivism Activism Poster
                     </h1>
                     <hr className="text-white mx-4 py-2"></hr>
@@ -16,7 +16,7 @@ export default function page() {
                     <p className="pb-4 w-full text-wrap text-white px-4">
                         In the beginning, I focused on creating two unique slogans that would provide the foundation for two completely unique rough drafts.
                     </p>
-                    <h1 className="text-[2rem] w-full pb-4 pt-2 px-4 text-white">
+                    <h1 className="text-[1.7rem] sm:text-[2rem] w-full pb-4 pt-2 px-4 text-white">
                         Rough 1: Thoughts and prayers won't fix the housing inequality crisis
                     </h1>
                     <p className="pb-4 w-full text-wrap text-white px-4">
@@ -29,9 +29,13 @@ export default function page() {
                         To further convey the desired grunge look, I placed a gradient and threshold map on the images (with cool hues on the top half, and warm hues on the bottom half to represent the positive and the negative sides), and I used a gothic typeface for the thoughts and prayers portion, but a grunge typeface for the crisis portion.
                     </p>
                     <div className="columns-1">
-                        <img src="/deconstructivism/rough1.jpg" alt="rough 1" className="pr-4 pl-4 py-4"/>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/deconstructivism/rough1_compressed.avif"/>
+                            <source type="image/webp" srcSet="/media/graphic-design/deconstructivism/rough1_compressed.webp"/>
+                            <img src="/media/graphic-design/deconstructivism/rough1_compressed.jpg" alt="rough 1" className="pr-4 pl-4 py-4 w-full"/>
+                        </picture>
                     </div>
-                    <h1 className="text-[2rem] w-full pb-4 pt-2 px-4 text-white">
+                    <h1 className="text-[1.7rem] sm:text-[2rem] w-full pb-4 pt-2 px-4 text-white">
                         Rough 2: No home, No safety, No security
                     </h1>
                     <p className="pb-4 w-full text-wrap text-white px-4">
@@ -50,9 +54,13 @@ export default function page() {
                         To further convey the desired grunge look, I used a very thick, bold typeface for the slogan.
                     </p>
                     <div className="columns-1">
-                        <img src="/deconstructivism/rough2.jpg" alt="rough 2 - No home, No safety, No security" className="pr-4 pl-4 py-4"/>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/deconstructivism/rough2_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/deconstructivism/rough2_compressed.webp"/>
+                            <img src="/media/graphic-design/deconstructivism/rough2_compressed.jpg" alt="rough 2 - No home, No safety, No security" className="pr-4 pl-4 py-4"/>
+                        </picture>
                     </div>
-                    <h1 className="text-[2rem] w-full pb-4 pt-2 px-4 text-white">
+                    <h1 className="text-[1.7rem] sm:text-[2rem] w-full pb-4 pt-2 px-4 text-white">
                         peer critique and final design
                     </h1>
                     <p className="pb-4 w-full text-wrap text-white px-4">
@@ -66,8 +74,11 @@ export default function page() {
                         Overall, I am very happy with how my final poster turned out. In addition to illustrating how extreme housing inequality is today, it shows that it is a true crisis that isn't getting resolved as people just sit around hoping that it gets better.
                         I think the combination of transitional and random typeographic layout helps to illustrate how chaotic, and unstable the problem is. I also love that it demonstrates clear hierarchy, but with an unsettling vibe to match the problem at hand.
                     </p>
-                    <img src="/deconstructivism/final_poster.jpg" alt="final deconstructivism activism poster" className="px-4 pb-4"/>
-
+                    <picture>
+                        <source type="image/avif" srcSet="/media/graphic-design/deconstructivism/final_poster_compressed.avif" />
+                        <source type="image/webp" srcSet="/media/graphic-design/deconstructivism/final_poster_compressed.webp" />
+                        <img src="/media/graphic-design/deconstructivism/final_poster_compressed.jpg" alt="final deconstructivism activism poster" className="px-4 pb-4"/>
+                    </picture>
                 </div>
                 <div className="flex w-full flex-row justify-between">
                     <Link href="/Portfolio/media/UAYPromo" className="pl-15 sm:pl-20 text-lg">&#10094; Previous Project</Link>

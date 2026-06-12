@@ -16,8 +16,12 @@ export default function page() {
                     I built the Interior Design AI Assistant as a simple three-page web app that uses multiple generative AI tools to analyze a user’s room and create a redesigned version of the space. I worked to ensure the web app was straightforward and accessable for users without design experience or technical knowledge. Users simply upload a photo, pick a vibe or style, and wait a few minutes for the system to build a realistic preview. The models work together to break down the room layout, understand the style the user wants, and generate a new version of the room based on those preferences. Everything updates automatically on the frontend so users can look through recommendations and switch between the before/after views without refreshing anything. Overall, the system is designed to take a complicated interior-design process and shrink it down into one quick, interactive workflow.
                 </p>
                 <div className="bg-white mb-4">
-                    <img src="/gait/system-diagram.png" aria-label="diagram showing user flow">
-                    </img>
+                    <picture>
+                        <source type="image/avif" srcSet="/computer-science/gait/system-diagram_compressed.avif" />
+                        <source type="image/webp" srcSet="/computer-science/gait/system-diagram_compressed.webp" />
+                        <img src="/computer-science/gait/system-diagram_compressed.jpg" aria-label="diagram showing user flow" />
+                    </picture>
+
                 </div>
                 <h3 className="text-teal-300 mb-2 text-2xl">Generative AI Tools used</h3>
                 <strong className="mb-2 text-teal-300">LLM #1 - Claude via GitHub Copilot</strong>
@@ -63,42 +67,42 @@ export default function page() {
             )
     const screenshots = [
         {
-            src: "/gait/instructions.png",
+            src: "/computer-science/gait/instructions_compressed",
             width: 16,
             id: 1
         },
         {
-            src: "/gait/text-input.png",
+            src: "/computer-science/gait/text-input_compressed",
             width: 16,
             id: 2
         },
         {
-            src: "/gait/photo-input.png",
+            src: "/computer-science/gait/photo-input_compressed",
             width: 16,
             id: 3
         },
         {
-            src: "/gait/recomendations.png",
+            src: "/computer-science/gait/recomendations_compressed",
             width: 16,
             id: 4
         },
         {
-            src: "/gait/visualization-before-top.png",
+            src: "/computer-science/gait/visualization-before-top_compressed",
             width: 16,
             id: 5
         },
         {
-            src: "/gait/visualization-before-bottom.png",
+            src: "/computer-science/gait/visualization-before-bottom_compressed",
             width: 16,
             id: 6
         },
         {
-            src: "/gait/visualization-after-top.png",
+            src: "/computer-science/gait/visualization-after-top_compressed",
             width: 16,
             id: 7
         },
         {
-            src: "/gait/visualization-after-bottom.png",
+            src: "/computer-science/gait/visualization-after-bottom_compressed",
             width: 16,
             id: 8
         },

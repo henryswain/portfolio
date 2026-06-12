@@ -72,8 +72,16 @@ export default function page() {
                         finaly, I put my research together by creating two mind maps (one for Niel Armstrong, and one for a mexican restaraunt)
                     </p>
                     {/* mind maps from miro linked on iframe */}
-                    <img src="/mind-maps/armstrong-mind-map.png" className="pb-2 px-4"></img>
-                    <img src="/mind-maps/mexican-restaraunt-mind-map.png" className="pb-2 px-4"></img>
+                    <picture>
+                        <source type="image/avif" srcSet="/media/graphic-design/ambiguous-logo/mind-maps/armstrong-mind-map_compressed.avif" />
+                        <source type="image/webp" srcSet="/media/graphic-design/ambiguous-logo/mind-maps/armstrong-mind-map_compressed.webp" />
+                        <img src="/mind-maps/armstrong-mind-map.png" className="pb-2 px-4"></img>
+                    </picture>
+                    <picture>
+                        <source type="image/avif" srcSet="/media/graphic-design/ambiguous-logo/mind-maps/mexican-restaraunt-mind-map_compressed.avif" />
+                        <source type="image/webp" srcSet="/media/graphic-design/ambiguous-logo/mind-maps/mexican-restaraunt-mind-map_compressed.webp" />
+                        <img src="/media/graphic-design/ambiguous-logo/mind-maps/mexican-restaraunt-mind-map_compressed.jpg" className="pb-2 px-4"></img>
+                    </picture>
 
                     <hr className="my-4 text-white mx-4"></hr>
                     <h2 className="text-[2rem] text-white px-4">Conceptualization</h2>
@@ -84,10 +92,26 @@ export default function page() {
                             In the future, to make this step easier, I plan to take more time and care in the mind map to generate nouns that could easily be iconified.
                     </p>
                     <div className="columns-1 md:columns-2">
-                        <img src="/thumbnail-sketches/partial-positive.png" className="pl-4 pr-4 md:pr-0 pb-4"></img>
-                        <img src="/thumbnail-sketches/full-positive.png" className="pl-4 pr-4 md:pr-0 pb-4"></img>
-                        <img src="/thumbnail-sketches/open-negative.png" className="pr-4 pl-4 md:pl-0 pb-4"></img>
-                        <img src="/thumbnail-sketches/closed-negative.png" className="pr-4 pl-4 md:pl-0 pb-4"></img>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/ambiguous-logo/thumbnail-sketches/partial-positive_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/ambiguous-logo/thumbnail-sketches/partial-positive_compressed.webp" />
+                            <img src="/media/graphic-design/ambiguous-logo/thumbnail-sketches/partial-positive_compressed.jpg" className="pl-4 pr-4 md:pr-0 pb-4"></img>
+                        </picture>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/ambiguous-logo/thumbnail-sketches/full-positive_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/ambiguous-logo/thumbnail-sketches/full-positive_compressed.webp" />
+                            <img src="/media/graphic-design/ambiguous-logo/thumbnail-sketches/full-positive_compressed.jpg" className="pl-4 pr-4 md:pr-0 pb-4"></img>
+                        </picture>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/ambiguous-logo/thumbnail-sketches/open-negative_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/ambiguous-logo/thumbnail-sketches/open-negative_compressed.webp" />
+                            <img src="/media/graphic-design/ambiguous-logo/thumbnail-sketches/open-negative_compressed.jpg" className="pr-4 pl-4 md:pl-0 pb-4"></img>
+                        </picture>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/ambiguous-logo/thumbnail-sketches/closed-negative_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/ambiguous-logo/thumbnail-sketches/closed-negative_compressed.webp" />
+                            <img src="/media/graphic-design/ambiguous-logo/thumbnail-sketches/closed-negative_compressed.jpg" className="pr-4 pl-4 md:pl-0 pb-4"></img>
+                        </picture>
                     </div>
                     <hr className="my-4 text-white mx-4"></hr>
                     <h2 className="text-[2rem] text-white px-4">Iteration</h2>
@@ -98,13 +122,37 @@ export default function page() {
                         Upon making that decision, I made a series of iterations to refine my favorite idea. For each iteration, I took inspiration from previously created
                         icons on flaticon.com, and I wasn't so much focused on getting a better icon as I was on geting a variety of options to chose from in the next step in the process.
                     </p>
-                    <div className="columns-1 md:columns-2">
-                        <img src="/iterations/sombrero_helmet_0.png" className="pl-4 pr-4 md:pr-0 pb-4"></img>
-                        <img src="/iterations/sombrero_helmet_1.png" className="pl-4 pr-4 md:pr-0 pb-4"></img>
-                        <img src="/iterations/sombrero_helmet_2.png" className="pl-4 pr-4 md:pr-0 pb-4"></img>
-                        <img src="/iterations/sombrero_helmet_3.png" className="pr-4 pl-4 md:pl-0 pb-4"></img>
-                        <img src="/iterations/sombrero_helmet_4.png" className="pr-4 pl-4 md:pl-0 pb-4"></img>
-                        <img src="/iterations/sombrero_helmet_5.png" className="pr-4 pl-4 md:pl-0 pb-4"></img>
+                    <div className="grid grid-cols-1 md:grid-cols-2 p-3">
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_0_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_0_compressed.webp" />
+                            <img src="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_0_compressed.jpg" className="p-1"></img>
+                        </picture>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_1_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_1_compressed.webp" />
+                            <img src="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_1_compressed.jpg" className="p-1"></img>
+                        </picture>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_2_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_2_compressed.webp" />
+                            <img src="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_2_compressed.jpg" className="p-1"></img>
+                        </picture>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_3_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_3_compressed.webp" />
+                            <img src="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_3_compressed.jpg" className="p-1"></img>                            
+                        </picture>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_4_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_4_compressed.webp" />
+                            <img src="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_4_compressed.jpg" className="p-1"></img>
+                        </picture>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_5_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_5_compressed.webp" />
+                            <img src="/media/graphic-design/ambiguous-logo/iterations/sombrero_helmet_5_compressed.jpg" className="p-1"></img>
+                        </picture>
                     </div>
                     <p className="text-[1rem] pb-4 px-4 text-white">
                         My favorite iteration turned out to be a cross between my original idea, and the one most similar to it (the same idea, but with a bit more curvature).
@@ -122,7 +170,11 @@ export default function page() {
                         tension surounding the cold war, as well as the spicyness associated with mexican food.
                     </p>
                     <div className="columns-1">
-                        <img src="/iterations/logo_with_type_peer_critique.png" alt="my finilized version that I took to peer critique" className="px-4 py-4"/>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/ambiguous-logo/iterations/logo_with_type_peer_critique_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/ambiguous-logo/iterations/logo_with_type_peer_critique_compressed.webp" />
+                            <img src="/media/graphic-design/ambiguous-logo/iterations/logo_with_type_peer_critique_compressed.jpg" alt="my finilized version that I took to peer critique" className="px-4 py-4"/>
+                        </picture>
                     </div>
                     <p className="text-[1rem] pb-2 px-4 text-white">
                         Upon presenting my work to peer critique, I was given one main piece of advice, and two ways to accomplish the solution
@@ -151,7 +203,11 @@ export default function page() {
                             I chose a bold weight and positioned the name of the restaurant (Armstrongs Enchiladas) below the logo to ensure proper balance.
                     </p>
                     <div className="columns-1">
-                        <img src="/iterations/ArmstrongsEnchiladas.png" alt="final logo paired with type"  className="px-4 py-4"/>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/ambiguous-logo/iterations/ArmstrongsEnchiladas_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/ambiguous-logo/iterations/ArmstrongsEnchiladas_compressed.webp" />
+                            <img src="/media/graphic-design/ambiguous-logo/iterations/ArmstrongsEnchiladas_compressed.jpg" alt="final logo paired with type"  className="px-4 py-4"/>
+                        </picture>
                     </div>
                 </div>
                 <div className="flex w-full flex-row justify-between">

@@ -8,7 +8,7 @@ export default function NavBar() {
             </div>
             <div className='flex'>
                 <a href="https://github.com/henryswain">
-                    <img src="/github-mark-white.svg" width="35px"/>
+                    <img src="/github-mark-white.svg" width={35} />
                 </a>
             </div>
         </div>

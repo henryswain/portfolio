@@ -4,7 +4,7 @@ export default function page() {
         <>
             <section className="bg-teal-950 w-70 sm:w-110 md:w-190 lg:w-240 rounded-lg p-4 flex flex-wrap">
                 <Card 
-                    imagePath="/gait/cover-photo.jpeg"
+                    imagePath="/computer-science/gait/cover-photo_compressed"
                     linkPath="/Portfolio/computer-science/GAIT"
                     textColor="black"
                     xsSize="md"
@@ -16,7 +16,7 @@ export default function page() {
                     imgHeight="1039"
                 /> 
                 <Card 
-                    imagePath="/career-quest-screenshots/career-quest-home.png"
+                    imagePath="/computer-science/career-quest-screenshots/career-quest-home_compressed"
                     linkPath="/Portfolio/computer-science/CareerQuest"
                     textColor="black"
                     xsSize="md"
@@ -28,7 +28,7 @@ export default function page() {
                     imgHeight="1510"
                 />
                 <Card 
-                    imagePath="/film-track-screenshots/film-track-watched.png"
+                    imagePath="/computer-science/film-track-screenshots/film-track-watched_compressed"
                     linkPath="/Portfolio/computer-science/FilmTrack"
                     textColor="black"
                     xsSize="md"
@@ -40,7 +40,7 @@ export default function page() {
                     imgHeight="1506"
                 />
                 <Card 
-                    imagePath="/honors-contract-screenshots/honors-contract-sleep.png"
+                    imagePath="/computer-science/honors-contract-screenshots/honors-contract-sleep_compressed"
                     linkPath="/Portfolio/computer-science/HonorsContract"
                     textColor="black"
                     xsSize="md"

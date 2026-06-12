@@ -43,7 +43,11 @@ export default function ProjectContent({description, link, linkText, projectType
                 {screenshots.map(photo => {
                     return (
                         <div key={photo.id} className={photo.width == 3 ? "col-span-2 sm:col-span-1" : "col-span-2"}>
-                            <img src={photo.src} alt="" className={photo.width == 3 ? "aspect-3/4 object-cover" : "aspect-video object-cover"}/>
+                            <picture>
+                                <source type='image/avif' srcSet={`${photo.src}.avif`} />
+                                <source type='image/webp' srcSet={`${photo.src}.webp`} />
+                            </picture>
+                            <img src={`${photo.src}.jpg`} alt="" className={photo.width == 3 ? "aspect-3/4 object-cover" : "aspect-video object-cover"}/>
                         </div>
                     )
                 })}

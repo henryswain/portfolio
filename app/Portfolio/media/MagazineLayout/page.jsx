@@ -6,7 +6,7 @@ export default function page() {
             <div className="flex gap-8 flex-col relative justify-between items-center bg-gradient pb-8">
                 <NavBar/>
                 <div className="bg-teal-950 rounded-lg w-85 md:w-180">
-                    <h1 className="text-[3rem] w-full pb-4 pt-2 px-4 text-white">
+                    <h1 className="text-[2.3rem] sm:text-[3rem] text-wrap w-full pb-4 pt-2 px-4 text-white">
                         Magazine Feature Article Layout
                     </h1>
                     <hr className="text-white mx-4 py-2"></hr>
@@ -27,18 +27,42 @@ export default function page() {
                         <li>The evolution of a drone: From war to farm</li>
                         <li>The new use for drones: Precision agriculture</li>
                     </ul>
-                    <div className="columns-1 md:columns-2">
-                        <img src="/magazine/objects-symbols-signs.png" alt="15 brainstormed objects and symbols magazine lead spread" className="pr-4 pl-4 py-4 md:pr-2"/>
-                        <img src="/magazine/metaphores.png" alt="5 brainstormed metaphors magazine lead spread" className="pr-4 py-4 pl-4 md:pl-2"/>
+                    <div className="grid grid-cols-1 md:grid-cols-2 p-3">
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/magazine/objects-symbols-signs_compressed.avif"/>
+                            <source type="image/webp" srcSet="/media/graphic-design/magazine/objects-symbols-signs_compressed.webp" />
+                            <img src="/magazine/objects-symbols-signs.png" alt="15 brainstormed objects and symbols magazine lead spread" className="p-1" />
+                        </picture>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/magazine/metaphores_compressed.avif"/>
+                            <source type="image/webp" srcSet="/media/graphic-design/magazine/metaphores_compressed.webp"/>
+                            <img src="/media/graphic-design/magazine/metaphores_compressed.jpg" alt="5 brainstormed metaphors magazine lead spread" className="p-1" />
+                        </picture>
                     </div>
                     <p className="pb-4 w-full text-wrap text-white px-4">
                         Using the the objects, I then created 4 basic sketches, each utilizing a different technique.
                     </p>
-                    <div className="columns-1 md:columns-2">
-                        <img src="/magazine/sketches/sketch1.png" alt="sketch 1" className="pr-4 pl-4 py-4 md:pr-2"/>
-                        <img src="/magazine/sketches/sketch2.png" alt="sketch 2" className="pr-4 py-4 pl-4 md:pl-2"/>
-                        <img src="/magazine/sketches/sketch3.png" alt="sketch 3" className="pr-4 pl-4 py-4 md:pr-2"/>
-                        <img src="/magazine/sketches/sketch4.png" alt="sketch 4" className="pr-4 py-4 pl-4 md:pl-2"/>
+                    <div className="grid grid-cols-1 md:grid-cols-2 p-3">
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/magazine/sketches/sketch1_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/magazine/sketches/sketch1_compressed.webp" />
+                            <img src="/media/graphic-design/magazine/sketches/sketch1_compressed.jpg" alt="sketch 1" className="p-1"/>
+                        </picture>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/magazine/sketches/sketch2_compressed.avif"/>
+                            <source type="image/webp" srcSet="/media/graphic-design/magazine/sketches/sketch2_compressed.webp" />
+                            <img src="/media/graphic-design/magazine/sketches/sketch2_compressed.jpg" alt="sketch 2" className="p-1"/>
+                        </picture>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/magazine/sketches/sketch3_compressed.avif"/>
+                            <source type="image/webp" srcSet="/media/graphic-design/magazine/sketches/sketch3_compressed.webp"/>
+                            <img src="/media/graphic-design/magazine/sketches/sketch3_compressed.jpg" alt="sketch 3" className="p-1"/>
+                        </picture>
+                        <picture>
+                            <source type="image/avif" srcSet="/media/graphic-design/magazine/sketches/sketch4_compressed.avif" />
+                            <source type="image/webp" srcSet="/media/graphic-design/magazine/sketches/sketch4_compressed.webp" />
+                            <img src="/media/graphic-design/magazine/sketches/sketch4_compressed.jpg" alt="sketch 4" className="p-1"/>
+                        </picture>
                     </div>
 
                     <p className="pb-4 w-full text-wrap text-white px-4">
@@ -68,7 +92,11 @@ export default function page() {
                         After fine tuning the images with generative expand in photoshop and upscaling them to print size in web photoshop, 
                         I brought all the pieces together to make the lead spread in Adobe Indesign.
                     </p>
-                    <img src="/magazine/lead spread.png" alt="final lead spread" className="px-4 pb-4"/>
+                    <picture>
+                        <source type="image/avif" srcSet="/media/graphic-design/magazine/lead spread_compressed.avif" />
+                        <source type="image/webp" srcSet="/media/graphic-design/magazine/lead spread_compressed.webp" />
+                        <img src="/media/graphic-design/magazine/lead spread_compressed.jpg" alt="final lead spread" className="px-4 pb-4"/>
+                    </picture>
                     <p className="pb-4 w-full text-wrap text-white px-4">
                         I really like my final design because it clearly shows that drones can be destructive in the military, but that they can also be used to improve agriculture. 
                         I like that since we read from left to right, we see it as starting with war, but looking to a more positive future. 

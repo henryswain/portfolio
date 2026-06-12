@@ -24,22 +24,22 @@ export default function page() {
             )
     const screenshots = [
         {
-            src: "/honors-contract-screenshots/honors-contract-sleep.png",
+            src: "/computer-science/honors-contract-screenshots/honors-contract-sleep_compressed",
             width: 16,
             id: 1
         },
         {
-            src: "/honors-contract-screenshots/honors-contract-home.png",
+            src: "/computer-science/honors-contract-screenshots/honors-contract-home_compressed",
             width: 16,
             id: 2
         },
         {
-            src: "/honors-contract-screenshots/honors-contract-anxiety.png",
+            src: "/computer-science/honors-contract-screenshots/honors-contract-anxiety_compressed",
             width: 16,
             id: 3
         },
         {
-            src: "/honors-contract-screenshots/honors-contract-depression.png",
+            src: "/computer-science/honors-contract-screenshots/honors-contract-depression_compressed",
             width: 16,
             id: 4
         }

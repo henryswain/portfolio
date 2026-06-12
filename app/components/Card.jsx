@@ -87,11 +87,15 @@ export default function Card({
     >
       <div style={{ position: 'relative' }}>
         <i style={{ display: 'block', paddingBottom: `${imgHeight / imgWidth * 100}%` }} />
-        <img 
-          src={imagePath}
-          alt="..."
-          className="absolute top-0 w-full rounded-t-lg hover:opacity-75 transition-opacity duration-250"
-        />
+        <picture>
+          <source type='image/avif' srcSet={`${imagePath}.avif`} />
+          <source type='image/webp' srcSet={`${imagePath}.webp`} />
+          <img 
+            src={`${imagePath}.jpg`}
+            alt="..."
+            className="absolute top-0 w-full rounded-t-lg hover:opacity-75 transition-opacity duration-250"
+          />
+        </picture>
       </div>
       <div className="bg-teal-900 rounded-b-lg p-2">
         <h1 className={`text-white text-center text-xs ${xsClass} ${smClass} ${mdClass} ${lgClass} line-clamp-2`}>

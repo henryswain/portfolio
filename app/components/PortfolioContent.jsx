@@ -6,7 +6,7 @@ export default function PortfolioContent() {
                 {/* computer science card */}
                 <div className='xl:col-start-3 xl:col-span-4 lg:col-start-3 lg:col-span-5 sm:col-start-2 sm:col-span-6 my-8 col-start-3 col-span-8 rounded-lg w-full p-0 m-0'>
                     <Card 
-                        imagePath="/me-coding-at-desk.jpeg" 
+                        imagePath="/cover-photos/me-coding-at-desk_compressed" 
                         linkPath="/Portfolio/computer-science" 
                         forPortfolioPage="true"
                         xsSize="xl" 
@@ -23,7 +23,7 @@ export default function PortfolioContent() {
                 <div className='xl:col-start-10 xl:col-span-4 lg:col-start-9 lg:col-span-5 sm:col-start-9 sm:col-span-6 my-8 col-start-3 col-span-8 rounded-lg'>
                     <Card
                         linkPath="/Portfolio/media"
-                        imagePath="/media-cover-photo.jpeg"
+                        imagePath="/cover-photos/media-cover-photo_compressed"
                         xsSize="xl"
                         smSize="xl"
                         mdSize="xl"

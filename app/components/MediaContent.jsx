@@ -5,7 +5,7 @@ export default function MediaContent() {
         <>
             <section className="bg-teal-950 w-70 sm:w-110 md:w-190 lg:w-240 flex flex-wrap rounded-lg p-4">
                 <Card 
-                    imagePath="/profile-story.jpeg"
+                    imagePath="/media/video-production/profile-story_compressed"
                     linkPath="/Portfolio/media/Profile"
                     textColor="black"
                     xsSize="xs"
@@ -19,7 +19,7 @@ export default function MediaContent() {
                 />
                 <Card
                     linkPath="/Portfolio/media/AmbiguousLogo"
-                    imagePath="/iterations/ArmstrongsEnchiladas.png"
+                    imagePath="/media/graphic-design/ambiguous-logo/iterations/ArmstrongsEnchiladas_compressed"
                     textColor="black"
                     xsSize="xs"
                     smSize="xs"
@@ -31,7 +31,7 @@ export default function MediaContent() {
                     imgHeight="943"
                 />
                 <Card 
-                    imagePath="/UAY_Horizontal_Logo_LightBlue.jpeg"
+                    imagePath="/media/video-production/UAY_Horizontal_Logo_LightBlue_compressed"
                     linkPath="/Portfolio/media/UAYPromo"
                     textColor="black"
                     xsSize="xs"
@@ -45,7 +45,7 @@ export default function MediaContent() {
                 />
                 <Card
                     linkPath="/Portfolio/media/DeconstructivismActivismPoster"
-                    imagePath="/deconstructivism/final_poster.jpg"
+                    imagePath="/media/graphic-design/deconstructivism/final_poster_compressed"
                     textColor="black"
                     xsSize="xs"
                     smSize="xs"
@@ -58,7 +58,7 @@ export default function MediaContent() {
                 />
                 <Card
                     linkPath="/Portfolio/media/TypographicPoster"
-                    imagePath="/final typographic poster.png"
+                    imagePath="/media/graphic-design/typographic-teaching-poster/final typographic poster_compressed"
                     textColor="black"
                     xsSize="xs"
                     smSize="xs"
@@ -71,7 +71,7 @@ export default function MediaContent() {
                 />
                 <Card
                     linkPath="/Portfolio/media/MagazineLayout"
-                    imagePath="/magazine/lead spread.png"
+                    imagePath="/media/graphic-design/magazine/lead spread_compressed"
                     textColor="black"
                     xsSize="xs"
                     smSize="xs"

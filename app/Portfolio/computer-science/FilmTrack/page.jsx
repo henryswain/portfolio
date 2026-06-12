@@ -29,22 +29,22 @@ export default function page() {
     )
     const screenshots = [
         {
-            src: "/film-track-screenshots/film-track-watched.png",
+            src: "/computer-science/film-track-screenshots/film-track-watched_compressed",
             width: 16,
             id: 1
         },
         {
-            src: "/film-track-screenshots/film-track-add-new-movie.png",
+            src: "/computer-science/film-track-screenshots/film-track-add-new-movie_compressed",
             width: 3,
             id: 2
         },
         {
-            src: "/film-track-screenshots/film-track-edit-movie.png",
+            src: "/computer-science/film-track-screenshots/film-track-edit-movie_compressed",
             width: 3,
             id: 3
         },
         {
-            src: "/film-track-screenshots/film-track-home.png",
+            src: "/computer-science/film-track-screenshots/film-track-home_compressed",
             width: 16,
             id: 4
         }
